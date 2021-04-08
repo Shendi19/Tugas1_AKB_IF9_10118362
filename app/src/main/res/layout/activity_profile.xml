@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:background="#C89686">
+
+    <TextView
+        android:id="@+id/textviewshendi6"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:layout_margin="100px"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        ></TextView>
+
+    <ImageView
+        android:id="@+id/imageViewshendi"
+        android:layout_width="600px"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textviewshendi6"
+        android:layout_height="600px"
+        app:srcCompat="@drawable/ha"
+        tools:ignore="VectorDrawableCompat" />
+    <TextView
+        android:id="@+id/textviewshendi1"
+        android:layout_below="@id/imageViewshendi"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10118362"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        ></TextView>
+    <TextView
+        android:id="@+id/textviewshendi2"
+        android:layout_below="@id/textviewshendi1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shendi Rakhma Diansyah"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        ></TextView>
+    <TextView
+        android:id="@+id/textviewshendi3"
+        android:layout_below="@id/textviewshendi4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Saya seorang mahasiswa teknik informatika, yang turun ke bumi hanya untuk jumatan, senin sampai kamis persiapan, sabtu minggu evaluasi"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"></TextView>
+
+
+    <TextView
+        android:id="@+id/textviewshendi4"
+        android:layout_below="@id/textviewshendi2"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12px"
+        android:text="IF-9/AKB-9"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        ></TextView>
+
+
+</RelativeLayout>

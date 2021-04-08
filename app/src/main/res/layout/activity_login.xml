@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="#C89686"
+    >
+
+    <EditText
+        android:id="@+id/usernameshendi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPersonName"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="100px"
+        android:hint="Username" />
+
+    <TextView
+        android:id="@+id/textviewshendi"
+        android:layout_below="@id/imageViewshendi"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12px"
+        android:text="Cent Energy"
+        android:textSize="20dp"
+        ></TextView>
+    <TextView
+        android:id="@+id/textviewshendi1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/passwordshendi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameshendi"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPassword"
+        android:hint="Password" />
+
+
+    <ImageView
+        android:id="@+id/imageViewshendi"
+        android:layout_width="300px"
+        android:layout_centerHorizontal="true"
+        android:layout_height="300px"
+        android:layout_below="@id/textviewshendi1"
+        app:srcCompat="@drawable/ic_baseline_delete_forever_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <Button
+        android:id="@+id/buttonmasukshendi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/passwordshendi"
+        android:text="Masuk"
+        android:onClick="methodmasuk">
+
+    </Button>
+    <Button
+        android:id="@+id/buttondaftarshendi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonmasukshendi"
+        android:layout_centerHorizontal="true"
+        android:text="Daftar"
+        android:onClick="methoddaftar">
+
+    </Button>
+</RelativeLayout>

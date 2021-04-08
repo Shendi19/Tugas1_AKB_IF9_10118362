@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="#C89686">
+
+    <ImageView
+        android:id="@+id/imageViewshendi"
+        android:layout_width="600px"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="600px"
+        app:srcCompat="@drawable/ic_baseline_delete_forever_24"
+        tools:ignore="VectorDrawableCompat" />
+    <TextView
+        android:id="@+id/textviewshendi"
+        android:layout_below="@id/imageViewshendi"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12px"
+        android:text="Cent Energy"
+        android:textSize="20dp"
+        ></TextView>
+
+</RelativeLayout>

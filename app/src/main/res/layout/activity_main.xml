@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#C89686">
+
+    <ImageView
+        android:id="@+id/imageViewshendi"
+        android:layout_width="300px"
+        android:layout_marginTop="100px"
+        android:layout_centerHorizontal="true"
+        android:layout_height="300px"
+        app:srcCompat="@drawable/ic_baseline_delete_forever_24"
+        tools:ignore="VectorDrawableCompat" />
+    <TextView
+        android:id="@+id/textviewshendi1"
+        android:layout_below="@id/imageViewshendi"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cent Energy"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        ></TextView>
+    <TextView
+        android:id="@+id/textviewshendi2"
+        android:layout_below="@id/textviewshendi1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12px"
+        android:text="Sampah ?Bukanlah Masalah !!!"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        ></TextView>
+    <Button
+        android:id="@+id/buttonmasukshendi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textviewshendi2"
+        android:layout_marginVertical="50px"
+        android:text="Profile"
+        android:onClick="methodprofile">
+
+    </Button>
+    <Button
+        android:id="@+id/buttonlogoutshendi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/buttonmasukshendi"
+        android:text="Logout"
+        android:onClick="methodlogout">
+
+    </Button>
+
+</RelativeLayout>
